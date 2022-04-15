@@ -11968,8 +11968,8 @@ body {
 }
 
 .cuerpo {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 0, 0, 0.9)), to(rgba(0, 0, 0, 0))), url("/Imagenes/header0.jpg");
-  background: linear-gradient(rgba(1, 0, 0, 0.9), rgba(0, 0, 0, 0)), url("/Imagenes/header0.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 0, 0, 0.9)), to(rgba(0, 0, 0, 0))), url("Imagenes/header0.jpg");
+  background: linear-gradient(rgba(1, 0, 0, 0.9), rgba(0, 0, 0, 0)), url("Imagenes/header0.jpg");
   height: 103vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11977,8 +11977,8 @@ body {
 
 /* inicio apartado INICIO */
 .header {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 0, 0, 0.9)), to(rgba(0, 0, 0, 0))), url("/Imagenes/header0.jpg");
-  background: linear-gradient(rgba(1, 0, 0, 0.9), rgba(0, 0, 0, 0)), url("/Imagenes/header0.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 0, 0, 0.9)), to(rgba(0, 0, 0, 0))), url("Imagenes/header0.jpg");
+  background: linear-gradient(rgba(1, 0, 0, 0.9), rgba(0, 0, 0, 0)), url("Imagenes/header0.jpg");
   height: 103vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -12093,8 +12093,8 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.6))), url("/Imagenes/header2.jpg");
-  background: linear-gradient(rgba(1, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url("/Imagenes/header2.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.6))), url("Imagenes/header2.jpg");
+  background: linear-gradient(rgba(1, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url("Imagenes/header2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 95vh;
@@ -12103,7 +12103,7 @@ button {
 .articulo-img {
   border: 1px solid #cd8d76;
   border-radius: 2em;
-  background: url("/Imagenes/header1.jpg");
+  background: url("Imagenes/header1.jpg");
   width: 1000px;
   height: 600px;
   margin: 10px 10px 10px 10px;
@@ -12171,8 +12171,8 @@ button {
 
 /* HEADER CONTACTO */
 .formulario-contenedor {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.6))), url("/Imagenes/header3.jpg");
-  background: linear-gradient(rgba(1, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url("/Imagenes/header3.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.6))), url("Imagenes/header3.jpg");
+  background: linear-gradient(rgba(1, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url("Imagenes/header3.jpg");
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -12225,7 +12225,7 @@ button {
           flex-direction: column;
   border: 1px solid #cd8d76;
   border-radius: 2em;
-  background: url("/Imagenes/header4.jpg");
+  background: url("Imagenes/header4.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   margin: 10px 10px 10px 10px;
