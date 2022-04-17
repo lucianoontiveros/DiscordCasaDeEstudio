@@ -11967,19 +11967,11 @@ body {
   background-color: #0f0f0e;
 }
 
-.cuerpo {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 0, 0, 0.9)), to(rgba(0, 0, 0, 0))), url("../Imagenes/header0.jpg");
-  background: linear-gradient(rgba(1, 0, 0, 0.9), rgba(0, 0, 0, 0)), url("../Imagenes/header0.jpg");
-  height: 103vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 /* inicio apartado INICIO */
 .header {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 0, 0, 0.9)), to(rgba(0, 0, 0, 0))), url("../Imagenes/header0.jpg");
   background: linear-gradient(rgba(1, 0, 0, 0.9), rgba(0, 0, 0, 0)), url("../Imagenes/header0.jpg");
-  height: 103vh;
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -12047,27 +12039,17 @@ button {
   color: #fff;
 }
 
-.presentacion span:hover {
-  color: #0f0f0e;
-}
-
-.presentacion .mx-auto button {
-  margin-top: 5em;
-  font-weight: bold;
+.presentacion a {
   background-color: #0f0f0e;
   border: 1px solid #cd8d76;
-  margin-bottom: 3em;
-}
-
-.presentacion .mx-auto button span a {
   font-family: "Cinzel", serif;
-  font-size: 1.5em;
-  margin-top: 5em;
+  font-size: 1em;
+  margin-top: 3em;
   color: #F2AD85;
   font-weight: bold;
 }
 
-.presentacion .mx-auto button span a:hover {
+.presentacion a:hover {
   color: #fff;
 }
 
@@ -12086,116 +12068,23 @@ button {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.6))), url("../Imagenes/header2.jpg");
-  background: linear-gradient(rgba(1, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url("../Imagenes/header2.jpg");
+  text-align: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.904))), url("../Imagenes/header2.jpg");
+  background: linear-gradient(rgba(1, 0, 0, 0.6), rgba(0, 0, 0, 0.904)), url("../Imagenes/header2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 95vh;
-}
-
-.articulo-img {
   border: 1px solid #cd8d76;
-  border-radius: 2em;
-  background: url("../Imagenes/header1.jpg");
-  width: 1000px;
-  height: 600px;
-  margin: 10px 10px 10px 10px;
-  background-repeat: no-repeat;
-  background-size: cover;
+  border-radius: 1em;
 }
 
 .articulo-text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  height: 80%;
-  padding: 1em 1em;
-  border-radius: 2em;
-  background-color: rgba(249, 249, 249, 0.4);
-  color: #F2F2F2;
-}
-
-.articulo-text h1, .articulo-text .h1 {
-  margin-top: 10px;
-}
-
-.articulo-text h1 b, .articulo-text .h1 b {
-  font-family: "Cinzel", serif;
-  font-size: 1em;
-  color: #F2AD85;
-}
-
-.contendor-icon {
-  text-align: center;
-}
-
-.contenedor-text {
-  margin-bottom: 2em;
-}
-
-.bottonContenedor {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.bottonEstilo {
-  background-color: #0f0f0e;
-  border: 1px solid #cd8d76;
-  border-radius: 1em;
-  width: 80%;
-}
-
-.bottonEstilo a {
-  font-family: "Cinzel", serif;
-  font-size: 1.5em;
-}
-
-/* HEADER CONTACTO */
-.formulario-contenedor {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.6))), url("../Imagenes/header3.jpg");
-  background: linear-gradient(rgba(1, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url("../Imagenes/header3.jpg");
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap-reverse;
-      flex-wrap: wrap-reverse;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -ms-flex-line-pack: stretch;
-      align-content: stretch;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 93vh;
-}
-
-.formulario {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 0, 0, 0.959)), to(rgba(0, 0, 0, 0)));
+  background: linear-gradient(rgba(1, 0, 0, 0.959), rgba(0, 0, 0, 0));
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -12206,16 +12095,77 @@ button {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 2em;
-  width: 50%;
-  height: 85%;
+  padding: 1em;
+}
+
+.articulo-text-element {
+  color: #F2F2F2;
+  font-family: "Cabin", sans-serif;
+  height: 700px;
+}
+
+.articulo-text-element h1, .articulo-text-element .h1 {
+  color: #cd8d76;
+  font-family: "Cinzel", serif;
+  margin-top: 1em;
+}
+
+.articulo-text-element div img {
+  margin-top: 1em;
+}
+
+.articulo-text-element .btn {
+  margin-top: 1em;
+  width: 100%;
+  background-color: #0f0f0e;
   border: 1px solid #cd8d76;
-  border-radius: 2em;
-  background-color: rgba(249, 249, 249, 0.4);
+  font-size: 1em;
+  font-family: "Cinzel", serif;
   color: #F2F2F2;
 }
 
-.formulario-img {
+.articulo-text-element .btn:hover {
+  background-color: #F2F2F2;
+  border: 1px solid #cd8d76;
+  color: #0f0f0e;
+}
+
+.articulo-img {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 0, 0, 0.9)), to(rgba(0, 0, 0, 0))), url("../Imagenes/header1.jpg");
+  background: linear-gradient(rgba(1, 0, 0, 0.9), rgba(0, 0, 0, 0)), url("../Imagenes/header1.jpg");
+  height: 700px;
+  width: 40%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1em;
+}
+
+/* inicio apartado FORMULARIO  */
+.contenedor-formulario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.904))), url("../Imagenes/header3.jpg");
+  background: linear-gradient(rgba(1, 0, 0, 0.6), rgba(0, 0, 0, 0.904)), url("../Imagenes/header3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid #cd8d76;
+  border-radius: 1em;
+  height: 90vh;
+}
+
+.formulario {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 0, 0, 0.959)), to(rgba(0, 0, 0, 0)));
+  background: linear-gradient(rgba(1, 0, 0, 0.959), rgba(0, 0, 0, 0));
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -12223,24 +12173,162 @@ button {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border: 1px solid #cd8d76;
-  border-radius: 2em;
-  background: url("../Imagenes/header4.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 10px 10px 10px 10px;
-  width: 900px;
-  height: 600px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1em;
+  width: 50%;
+  height: 700px;
+  color: #F2F2F2;
+  border-radius: 1em;
 }
 
-@media screen and (max-width: 990px) {
-  .formulario {
+.formulario form h1, .formulario form .h1 {
+  color: #cd8d76;
+  font-family: "Cinzel", serif;
+}
+
+.formulario-img {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 0, 0, 0.9)), to(rgba(0, 0, 0, 0))), url("../Imagenes/header4.jpg");
+  background: linear-gradient(rgba(1, 0, 0, 0.9), rgba(0, 0, 0, 0)), url("../Imagenes/header4.jpg");
+  height: 700px;
+  width: 40%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid #cd8d76;
+  border-radius: 1em;
+}
+
+form .btn {
+  margin-top: 1em;
+  width: 100%;
+  background-color: #0f0f0e;
+  border: 1px solid #cd8d76;
+  font-size: 1em;
+  font-family: "Cinzel", serif;
+  color: #F2F2F2;
+}
+
+form .btn:hover {
+  background-color: #F2F2F2;
+  border: 1px solid #cd8d76;
+  color: #0f0f0e;
+}
+
+/* inicio apartado ENVIO */
+.redes-sociales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.904))), url("../Imagenes/header3.jpg");
+  background: linear-gradient(rgba(1, 0, 0, 0.6), rgba(0, 0, 0, 0.904)), url("../Imagenes/header3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid #cd8d76;
+  border-radius: 1em;
+  height: 90vh;
+}
+
+.redesText {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 0, 0, 0.959)), to(rgba(0, 0, 0, 0)));
+  background: linear-gradient(rgba(1, 0, 0, 0.959), rgba(0, 0, 0, 0));
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1em;
+  width: 50%;
+  height: 700px;
+  color: #F2F2F2;
+  border-radius: 1em;
+}
+
+.redesText .redesIcons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1em;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(0, 0, 0, 0.527);
+  border-radius: 1em;
+}
+
+.redesText .redesIcons i {
+  margin: 1em;
+  font-size: 2em;
+  color: #F2AD85;
+}
+
+.redesText .redesIcons .bi-instagram:hover {
+  margin: 1em;
+  font-size: 2em;
+  color: violet;
+}
+
+.redesText .redesIcons .bi-twitch:hover {
+  margin: 1em;
+  font-size: 2em;
+  color: #700570;
+}
+
+.redesText .redesIcons .bi-twitter:hover {
+  margin: 1em;
+  font-size: 2em;
+  color: #4e4ef0;
+}
+
+@media screen and (max-width: 970px) {
+  .header {
+    height: 105vh;
+  }
+  .navbar-collapse {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  .navbar-collapse ul li {
     width: 100%;
   }
-  .formulario-img {
+  .articulo-img {
     display: none;
   }
-  .nav {
+  .cuerpo {
+    margin: 0;
+  }
+  .navbar-brand {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -12249,30 +12337,66 @@ button {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .titulos .presentacion button {
-    margin-left: 0;
-    margin-right: 0;
-  }
-  .articulo-img {
-    display: none;
-  }
-  .articulo-text {
-    height: 90vh;
-  }
-  .contendor-icon {
-    margin-top: 1.5em;
+  .navbar-collapse {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     text-align: center;
   }
-  .contenedor-text {
-    margin-bottom: 1em;
+  .formulario-img {
+    display: none;
   }
-  .botton-comunidad a {
-    font-size: 1em;
-    color: #F2F2F2;
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+    height: 135vh;
   }
-  .articulo-text h1 b, .articulo-text .h1 b {
-    font-size: 1em;
-    color: #F2AD85;
+  .navbar-brand {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .navbar-collapse {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  .navbar-collapse ul li {
+    width: 100%;
+  }
+  .articulo-text {
+    padding: 1em;
+    border-radius: 1em;
+    height: 900px;
+  }
+  .contenedorFlex {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+  }
+  .formulario-img {
+    display: none;
   }
 }
 /*# sourceMappingURL=custom.css.map */
