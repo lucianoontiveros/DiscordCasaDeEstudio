@@ -12360,6 +12360,16 @@ form .btn:hover {
   .formulario-img {
     display: none;
   }
+  .redes-sociales {
+    padding: 0;
+  }
+  .redesText {
+    height: 100%;
+    width: 100%;
+  }
+  .redesIcons {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -12411,6 +12421,21 @@ form .btn:hover {
   }
   .formulario-img {
     display: none;
+  }
+  .redes-sociales {
+    padding: 0;
+  }
+  .redesText {
+    height: 100%;
+    width: 100%;
+  }
+  .redesIcons {
+    width: 100%;
+  }
+  .redesText .redesIcons i {
+    margin: 1em;
+    font-size: 1em;
+    color: #F2AD85;
   }
 }
 /*# sourceMappingURL=custom.css.map */
