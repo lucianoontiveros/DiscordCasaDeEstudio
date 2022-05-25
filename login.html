@@ -8,7 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./css/custom.css">
@@ -38,10 +37,10 @@
                 <a class="nav-link" href="./comunidad.html">Comunidad</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="./contacto.html">Contacto</a>
+                <a class="nav-link" href="./contacto.html">Contacto</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./login.html">Login</a>
+                <a class="nav-link active" href="./login.html">Login</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./register.html">Registrarte</a>
@@ -51,25 +50,45 @@
         </div>
       </nav>
     </header>
+    
+    <div class="formulario">
+      
+      <div class="formulario__login">
   
-    <div class="redes-sociales">
-
-      <div class="redesText">
-        <h1>Gracias por tu contacto</h1>
-        <span>Puedes agilizar tu consulta a través de nuestras redes</span>
-        <div class="redesIcons">
-          <a href="https://www.instagram.com/luciano.a.ontiveros/"><i class="bi bi-instagram"></i></a>
-          <a href="https://www.twitch.tv/cuartodechenz"><i class="bi bi-twitch"></i></a>
-          <a href="https://twitter.com/AgustnOntivero6"><i class="bi bi-twitter"></i></a>
+        <h3>User login</h3>
+        <div class="inputBox">
+          <span class="fas fa-user"></span>
+          <input type="email" name="" placeholder="Ingrese su correo electronico." id="">
         </div>
+              
+        <div class="inputBox">
+          <span class="fas fa-lock"></span>
+          <input type="password" placeholder="Ingrese su contraseña" id="">
+        </div>
+          
+        <div class="inputBox">
+          <input type="submit" value="Iniciar sesión" class="btn btn__login">
+          <p class="formulario__input-error"> El usuario y/o contraseña ingresados no son correctos</p> 
+        </div>
+            
+        <div class="flex opcion__password">
+          <div class="opcion__password-chekout">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me">Recordarme</label>
+          </div>
+          
+          <a href="#">Recuperar contraseña</a>
+        </div>
+
+        <div class="inputBox">
+          <a href="register.html" class="btn">Crear cuenta</a>
+        </div>
+  
       </div>
-      <div class="formulario-img"></div>
+
+      <div class="formulario-img formulario__img"></div>
 
     </div>
-      
-    
-    
-  
     <!-- Scripts javascript -->
     <script src="./js/bootstrap.min.js"></script>
   </body>

@@ -116,10 +116,70 @@ button {
 
 /* inicio apartado COMUNIDAD  */
 
-.contenedorFlex {
+.comunidad__contenedor {
     display: flex;
     flex-direction: row;
-    justify-content: space-around; 
+    justify-content: space-evenly; 
+    align-items: center;
+    background: linear-gradient(rgba(0.6,0,0, 0.6), rgba(0, 0, 0, 0.904)), url('../Imagenes/header2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #cd8d76;
+    border-radius: 1em;
+    height: 90vh
+}
+
+.articulo-text { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    background: linear-gradient(rgba(1, 0, 0, 0.959), rgba(0, 0, 0, 0));
+    height: 80%;
+    padding: 1em;
+    border-radius: 1em;
+    border: 1px solid #cd8d76;
+}
+
+.contendor-icon {
+    margin-top: 15px;
+}
+
+.articulo-text-element h1 {
+    color: #cd8d76;
+    font-family: $font-titulo2;
+}
+
+.articulo-text-element .contendor-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: $light;
+    font-family: $font-titulo;
+}
+
+.contendor-icon span {
+    display: flex;
+    margin-left: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.formulario__comunidad-img {
+    background: linear-gradient(rgba(0.5, 0, 0, 0.5), rgba(0, 0, 0, 0)), url('../Imagenes/header4.jpg');
+    height: 80%;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #cd8d76;
+    border-radius: 1em;
+};
+
+/* .contenedorFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
     align-items: center; 
     text-align: center;
     background: linear-gradient(rgba(0.6,0,0, 0.6), rgba(0, 0, 0, 0.904)), url('../Imagenes/header2.jpg');
@@ -134,13 +194,14 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 80%;
     padding: 1em;
+    border-radius: 1em;
 }
 
 .articulo-text-element {
     color: $light;
     font-family: $font-titulo;
-    height: 700px;
 }
 
 .articulo-text-element h1 {
@@ -170,22 +231,23 @@ button {
 }
 
 
-.articulo-img {
-    background: linear-gradient(rgba(0.9, 0, 0, 0.9), rgba(0, 0, 0, 0)), url('../Imagenes/header1.jpg');
-    height: 700px;
-    width: 40%;
+.formulario__comunidad-img {
+    background: linear-gradient(rgba(0.5, 0, 0, 0.5), rgba(0, 0, 0, 0)), url('../Imagenes/header4.jpg');
+    height: 80%;
+    width: 50%;
     background-repeat: no-repeat;
     background-size: cover;
+    border: 1px solid #cd8d76;
     border-radius: 1em;
-}
+}; */
 
+/* inicio apartado CONTACTO  */
 
-/* inicio apartado FORMULARIO  */
-
-.contenedor-formulario {
+.contenedor {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    width: 100%;
+    justify-content: space-evenly;
     align-items: center;
     background: linear-gradient(rgba(0.6,0,0, 0.6), rgba(0, 0, 0, 0.904)), url('../Imagenes/header3.jpg');
     background-repeat: no-repeat;
@@ -195,48 +257,141 @@ button {
     height: 90vh;
 }
 
-.formulario {
-    background: linear-gradient(rgba(1, 0, 0, 0.959), rgba(0, 0, 0, 0));
+.contenedor__formulario {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 1em;
-    width: 50%;
-    height: 700px;
     color: $light;
+    padding: 1em;
+    background-color:#0f0f0e;
+    height: 90%;
+    width: 40%;
     border-radius: 1em;
+    border: 1px solid #cd8d76;
 }
 
-.formulario form h1 {
-    color: #cd8d76;
+.contenedor__formulario h1 {
     font-family: $font-titulo2;
+    text-align: center;
+    color: #cd8d76;
+
 }
 
 .formulario-img {
-    background: linear-gradient(rgba(0.9, 0, 0, 0.9), rgba(0, 0, 0, 0)), url('../Imagenes/header4.jpg');
-    height: 700px;
-    width: 40%;
+    background: linear-gradient(rgba(0.5, 0, 0, 0.5), rgba(0, 0, 0, 0)), url('../Imagenes/header4.jpg');
+    height: 80%;
+    width: 50%;
     background-repeat: no-repeat;
     background-size: cover;
     border: 1px solid #cd8d76;
     border-radius: 1em;
 }
 
-form .btn {
-    margin-top: 1em;
-    width: 100%;
-    background-color: #0f0f0e;
-    border: 1px solid #cd8d76;
-    font-size: 1em;
+.inputBox .btn__contacto {
     font-family: $font-titulo2;
-    color: $light;
+    font-size: 1.5em;
+    color:#F2F2F2;
+    background-color:#F2AD85;
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
 }
 
-form .btn:hover {
-    background-color: $light;
+
+/* Inicio apartado LOGIN */
+
+.formulario {
+    color: $light;
+    background: linear-gradient(rgba(0.6,0,0, 0.6), rgba(0, 0, 0, 0.904)), url('../Imagenes/header3.jpg');
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
     border: 1px solid #cd8d76;
-    color: $dark;
+    border-radius: 1em;
 }
+
+.formulario__login {
+    display: block;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 1em;
+    background-color: #0f0f0e;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 40px;
+    border: 1px solid #cd8d76;
+    height: 75%;
+    width: 40%;
+}
+
+.formulario__login h3 {
+    font-size: 2em;
+    color: #cd8d76;
+    font-family: $font-titulo2;
+}
+
+.formulario__login .inputBox {
+    margin-top: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.formulario__login .inputBox span {
+    position: absolute;
+    z-index: 100;
+    top: 15px;
+    left: 10px;
+    color: gray;
+}
+
+.formulario__login .opcion__password {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+
+}
+
+.formulario__login .btn {
+    font-family: $font-titulo2;
+    background-color: #cd8d76;
+    border-color:#F2F2F2;
+    color: #F2F2F2;
+    padding: 10px;
+    width: 100%;
+}
+
+.formulario__login .btn__login {
+    font-family: $font-titulo2;
+    background-color:grey;
+    border-color:#F2F2F2;
+    color: #F2F2F2;
+    padding: 10px;
+    width: 100%;
+}
+
+.inputBox input {
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.formulario__img {
+    background: linear-gradient(rgba(0.5, 0, 0, 0.5), rgba(0, 0, 0, 0)), url('../Imagenes/header3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #cd8d76;
+    border-radius: 1em;
+    height: 95%;
+    width: 50%;
+    display: column;
+};
 
 /* inicio apartado ENVIO */
 
@@ -337,9 +492,30 @@ form .btn:hover {
         text-align: center;
     }
 
+    .contenedor-formulario{
+        padding: 0;
+    }
+    .formulario{
+        height: 100%;
+        width: 100%;
+    }
+
     .formulario-img {
         display: none;
     }
+
+    .redes-sociales{
+        padding: 0;
+    }
+    .redesText{
+        height: 100%;
+        width: 100%;
+    }
+
+    .redesIcons {
+        width: 100%;
+    }
+
 
 }
 
@@ -377,8 +553,33 @@ form .btn:hover {
         padding: 0;
     }
 
+    .contenedor-formulario{
+        padding: 0;
+    }
+    .formulario{
+        height: 100%;
+        width: 100%;
+    }
+
     .formulario-img {
         display: none;
     }
 
+    .redes-sociales{
+        padding: 0;
+    }
+    .redesText{
+        height: 100%;
+        width: 100%;
+    }
+
+    .redesIcons {
+        width: 100%;
+    }
+
+    .redesText .redesIcons i {
+        margin: 1em;
+        font-size: 1em;
+        color: $primary;
+    }
 }
