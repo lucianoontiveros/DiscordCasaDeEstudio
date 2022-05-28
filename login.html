@@ -51,26 +51,26 @@
       </nav>
     </header>
     
-    <div class="formulariologin">
+    <div class="formulariologin" id="login">
       
       <div class="formulario__login">
   
         <h3>User login</h3>
         <div class="inputBox">
           <span class="fas fa-user"></span>
-          <input type="email" name="" placeholder="Ingrese su correo electronico." id="">
+          <input type="email" name="usuario" placeholder="Ingrese su correo electronico." id="usuario" value="">
         </div>
               
         <div class="inputBox">
           <span class="fas fa-lock"></span>
-          <input type="password" placeholder="Ingrese su contraseña" id="">
+          <input type="password" value="" placeholder="Ingrese su contraseña" name="passwordlogin" id="passwordlogin">
         </div>
           
         <div class="inputBox">
           <input type="submit" value="Iniciar sesión" class="btn btn__login">
-          <p class="formulario__input-error"> El usuario y/o contraseña ingresados no son correctos</p> 
+          <p id="mensaje__error" class="formulario__input-error"> El usuario y/o contraseña ingresados no son correctos, o en su defecto no tiene cuenta registrada</p> 
         </div>
-            
+
         <div class="flex opcion__password">
           <div class="opcion__password-chekout">
             <input type="checkbox" name="" id="remember-me">
@@ -91,5 +91,6 @@
     </div>
     <!-- Scripts javascript -->
     <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/register.js"></script>
   </body>
 </html>
